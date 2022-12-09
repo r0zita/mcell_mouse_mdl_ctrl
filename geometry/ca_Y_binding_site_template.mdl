@@ -1,0 +1,121 @@
+sensor_Y POLYGON_LIST{
+  VERTEX_LIST  {
+    [ 0.0212670005857944, 0, -0.0131430001929402 ]
+    [ -0.0212650001049042, 0, -0.0131430001929402 ]
+    [ 0.00772600015625358, 0.0202249996364117, -0.0125000001862645 ]
+    [ 0.00772600015625358, -0.0202259998768568, -0.0125000001862645 ]
+    [ -0.00772600015625358, 0.0202249996364117, -0.0125000001862645 ]
+    [ -0.00772600015625358, -0.0202259998768568, -0.0125000001862645 ]
+    [ 0.0202249996364117, 0.0125000001862645, -0.00772499991580844 ]
+    [ -0.0202249996364117, 0.0125000001862645, -0.00772499991580844 ]
+    [ 0.0202249996364117, -0.0125000001862645, -0.00772499991580844 ]
+    [ -0.0202249996364117, -0.0125000001862645, -0.00772499991580844 ]
+    [ 0.00369099993258715, 0.017043000087142, -0.0179140008985996 ]
+    [ -0.00369099993258715, -0.017043000087142, -0.0179140008985996 ]
+    [ 0.0216049998998642, 0.0059710000641644, -0.0110719995573163 ]
+    [ -0.0216049998998642, 0.0059710000641644, -0.0110719995573163 ]
+    [ 0.0216049998998642, -0.0059710000641644, -0.0110719995573163 ]
+    [ -0.0216049998998642, -0.0059710000641644, -0.0110719995573163 ]
+    [ 0.0179140008985996, -0.00369099993258715, -0.017043000087142 ]
+    [ 0.0179140008985996, 0.00368999992497265, -0.017043000087142 ]
+    [ -0.0179130006581545, 0.00368999992497265, -0.017043000087142 ]
+    [ -0.0179130006581545, -0.00369099993258715, -0.017043000087142 ]
+    [ 0.0172060001641512, 0.0106330001726747, -0.0146949999034405 ]
+    [ 0.0106330001726747, 0.0146949999034405, -0.017322301864624 ]
+    [ 0.0146939996629953, 0.0172049999237061, -0.0106330001726747 ]
+    [ 0.0106330001726747, -0.0146949999034405, -0.0172049999237061 ]
+    [ 0.0172060001641512, -0.0106330001726747, -0.0146949999034405 ]
+    [ 0.0146939996629953, -0.0172049999237061, -0.0106330001726747 ]
+    [ 0, 0.0212660003453493, -0.0131430001929402 ]
+    [ 0, -0.0212660003453493, -0.0131430001929402 ]
+    [ -0.0146949999034405, 0.0172049999237061, -0.0106330001726747 ]
+    [ -0.0106330001726747, 0.0146949999034405, -0.0172049999237061 ]
+    [ -0.0172039996832609, 0.0106330001726747, -0.0146949999034405 ]
+    [ -0.0146949999034405, -0.0172049999237061, -0.0106330001726747 ]
+    [ -0.0172039996832609, -0.0106330001726747, -0.0146949999034405 ]
+    [ -0.0106330001726747, -0.0146949999034405, -0.0172049999237061 ]
+    [ 0.00369099993258715, -0.017043000087142, -0.0179140008985996 ]
+    [ -0.00369099993258715, 0.017043000087142, -0.0179140008985996 ]
+  }
+  ELEMENT_CONNECTIONS
+  {
+    [ 10, 2, 21 ]
+    [ 20, 6, 12 ]
+    [ 0, 17, 12 ]
+    [ 8, 24, 14 ]
+    [ 0, 14, 16 ]
+    [ 3, 34, 23 ]
+    [ 4, 26, 35 ]
+    [ 2, 10, 26 ]
+    [ 34, 3, 27 ]
+    [ 11, 27, 5 ]
+    [ 29, 4, 35 ]
+    [ 13, 7, 30 ]
+    [ 1, 13, 18 ]
+    [ 15, 32, 9 ]
+    [ 1, 19, 15 ]
+    [ 11, 5, 33 ]
+    [ 17, 0, 16 ]
+    [ 1, 18, 19 ]
+    [ 21, 2, 22 ]
+    [ 6, 20, 22 ]
+    [ 25, 24, 8 ]
+    [ 25, 3, 23 ]
+    [ 28, 4, 29 ]
+    [ 28, 30, 7 ]
+    [ 31, 9, 32 ]
+    [ 31, 33, 5 ]
+    [ 20, 12, 17 ]
+    [ 24, 16, 14 ]
+    [ 35, 26, 10 ]
+    [ 34, 27, 11 ]
+    [ 13, 30, 18 ]
+    [ 32, 15, 19 ]
+    [ 21, 22, 20 ]
+    [ 25, 23, 24 ]
+    [ 28, 29, 30 ]
+    [ 31, 32, 33 ]
+  }
+  DEFINE_SURFACE_REGIONS  {
+
+    site_0 {ELEMENT_LIST = [0] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_0_present} }
+    site_1 {ELEMENT_LIST = [1] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_1_present} }
+    site_2 {ELEMENT_LIST = [2] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_2_present} }
+    site_3 {ELEMENT_LIST = [3] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_3_present} }
+    site_4 {ELEMENT_LIST = [4] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_4_present} }
+    site_5 {ELEMENT_LIST = [5] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_5_present} }
+    site_6 {ELEMENT_LIST = [6] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_6_present} }
+    site_7 {ELEMENT_LIST = [7] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_7_present} }
+    site_8 {ELEMENT_LIST = [8] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_8_present} }
+    site_9 {ELEMENT_LIST = [9] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_9_present} }
+    site_10 {ELEMENT_LIST = [10] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_10_present} }
+    site_11 {ELEMENT_LIST = [11] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_11_present} }
+    site_12 {ELEMENT_LIST = [12] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_12_present} }
+    site_13 {ELEMENT_LIST = [13] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_13_present} }
+    site_14 {ELEMENT_LIST = [14] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_14_present} }
+    site_15 {ELEMENT_LIST = [15] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_15_present} }
+    site_16 {ELEMENT_LIST = [16] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_16_present} }
+    site_17 {ELEMENT_LIST = [17] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_17_present} }
+    site_18 {ELEMENT_LIST = [18] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_18_present} }
+    site_19 {ELEMENT_LIST = [19] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_19_present} }
+    site_20 {ELEMENT_LIST = [20] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_20_present} }
+    site_21 {ELEMENT_LIST = [21] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_21_present} }
+    site_22 {ELEMENT_LIST = [22] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_22_present} }
+    site_23 {ELEMENT_LIST = [23] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_23_present} }
+    site_24 {ELEMENT_LIST = [24] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_24_present} }
+    site_25 { ELEMENT_LIST = [25] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_25_present} }
+    site_26 { ELEMENT_LIST = [26] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_26_present} }
+    site_27 { ELEMENT_LIST = [27] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_27_present} }
+    site_28 { ELEMENT_LIST = [28] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_28_present} }
+    site_29 { ELEMENT_LIST = [29] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_29_present} }
+    site_30 { ELEMENT_LIST = [30] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_30_present} }
+    site_31 { ELEMENT_LIST = [31] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_31_present} }
+    site_32 { ELEMENT_LIST = [32] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_32_present} }
+    site_33 { ELEMENT_LIST = [33] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_33_present} }
+    site_34 { ELEMENT_LIST = [34] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_34_present} }
+    site_35 { ELEMENT_LIST = [35] MOLECULE_NUMBER {unbound_sensor_Y' = sensor_Y_35_present} }
+    sites_all {ELEMENT_LIST = [ALL_ELEMENTS] }
+
+  }
+}
+
